@@ -5,7 +5,7 @@ Deployment of web projects
 
 <h1> Installation </h1>
 First we download Git by typing:
-'''sudo apt-get install git-core'''
+	sudo apt-get install git-core
 
 Quickly run apt-get update to make sure that you download the most recent packages to your VPS.
 '''sudo apt-get update'''
