@@ -4,7 +4,7 @@ body {
 } 
 
 #wrapper {
-  
+
   height:100%;
 background-color:gray;
 }
@@ -33,9 +33,9 @@ background-color:gray;
 
 .hover-grid-item .caption {
   background-color: #222;
-  width:145px;
-  height:145px;
-  padding: 18px;
+  width:181px;
+  height:181px;
+  padding: 14px;
   position:absolute;
   left:0;
   color: #fff;
@@ -46,8 +46,11 @@ background-color:gray;
   border-radius: 4px;*/
 }
 
+.caption h2 {
+  font-size:16px;
+}
 .hover-grid-item .caption p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
 }
