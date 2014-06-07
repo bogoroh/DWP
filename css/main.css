@@ -1,8 +1,16 @@
+html{
+  background-color: #F8F8F8;
+}
+
 body {
   margin: 0 auto;
   width: 960px;
 } 
 
+footer{
+  clear:both;
+  text-align:center;
+}
 #wrapper {
 
   height:100%;

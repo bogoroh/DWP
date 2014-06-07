@@ -19,7 +19,7 @@ You can see all of your settings with this command:
 git config --list
 
 <h1>Add a remote </h1>
-$ git remote add github git@github.com:bogoroh/DWP.git
+$ git remote add DWP git@github.com:bogoroh/DWP.git
 
 <h1> Transfer the files </h1>
 a. You need to add files  —> git add .
