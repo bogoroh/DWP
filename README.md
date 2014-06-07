@@ -26,9 +26,9 @@ You can see all of your settings with this command:
 	$ git remote add DWP git@github.com:bogoroh/DWP.git
 
 ## Transfer the files
-1. You need to add files  —> git add .
+1. You need to add files  —> git add "."
 
-	*(“.” means all the files, no worries, it will add everything that was changed.)
+..*(“.” means all the files, no worries, it will add everything that was changed.)
 
 2. You need to Commit you changes –> git commit  -m “Message you want to see near your commit”
 
