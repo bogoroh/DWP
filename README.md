@@ -3,7 +3,7 @@ DWP
 
 Deployment of web projects
 
-<h1> Installation </h1>
+## Installation
 First we download Git by typing:
 
 	sudo apt-get install git-core
@@ -21,11 +21,11 @@ You can see all of your settings with this command:
 	
 	git config --list
 
-<h1>Add a remote </h1>
+## Add a remote 
 
 	$ git remote add DWP git@github.com:bogoroh/DWP.git
 
-<h1> Transfer the files </h1>
+## Transfer the files
 a. You need to add files  —> git add .
 
 (“.” means all the files, no worries, it will add everything that was changed.)
@@ -33,3 +33,6 @@ a. You need to add files  —> git add .
 b. You need to Commit you changes –> git commit  -m “Message you want to see near your commit”
 
 c. Push your changes to the server –> git push
+
+### Credits
+Mike Taatgen
