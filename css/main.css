@@ -10,11 +10,26 @@ body {
 footer{
   clear:both;
   text-align:center;
+  margin-bottom:5px;
 }
 #wrapper {
 
-  height:100%;
-background-color:gray;
+height:100%;
+background-color:#F8F8F8;
+}
+
+#contact {
+  clear:both;
+  color:#666;
+  text-decoration:none;
+}
+
+#contact a {
+  color:#666;
+}
+
+h1{
+  color:#11C77A;
 }
  .hover-grid .hover-grid-item {
   width: 181px;

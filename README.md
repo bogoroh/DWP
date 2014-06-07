@@ -5,18 +5,18 @@ Deployment of web projects
 
 <h1> Installation </h1>
 First we download Git by typing:
-sudo apt-get install git-core
+'''sudo apt-get install git-core'''
 
 Quickly run apt-get update to make sure that you download the most recent packages to your VPS.
-sudo apt-get update
+'''sudo apt-get update'''
 
-sudo nano ~/.gitconfig
+'''sudo nano ~/.gitconfig'''
 You can use the follow commands to add in the required information.
-git config --global user.name "NewUser"
-git config --global user.email newuser@example.com
+'''git config --global user.name "NewUser"'''
+'''git config --global user.email newuser@example.com'''
 
 You can see all of your settings with this command:
-git config --list
+'''git config --list'''
 
 <h1>Add a remote </h1>
 $ git remote add DWP git@github.com:bogoroh/DWP.git
