@@ -21,6 +21,15 @@ You can see all of your settings with this command:
 	
 	git config --list
 
+Install apache 2
+	
+	sudo apt-get install apache2
+	sudo service apache2 restart
+	pico /etc/apache2/conf.d/security
+
+* Add ServerName localhost
+
+
 ## Add a remote 
 
 	$ git remote add DWP git@github.com:bogoroh/DWP.git
