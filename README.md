@@ -36,5 +36,39 @@ You can see all of your settings with this command:
 
 4. Pull your changes from your github -> git pull "remote" "branch"
 
+
+## Git hooks
+Create Space for Repo on Live Server
+
+	sudo mkdir /var/repos/ 
+	sudo chown YourUserName /var/repos
+	cd /var/repos && mkdir SiteName.git && cd SiteName.git
+	git init --bare
+
+
+Setup server hooks
+
+	cd /var/repos/SiteName.git/hooks/
+	pico post-receive
+		#!/bin/sh
+		GIT_WORK_TREE=/var/www git checkout -f
+
+	(Optional) If you are using multiple domains on one server and followed the Apache Multiple Virtual Host Instructions.
+
+Give permissions to make the hook executable by the server
+
+	chmod +x hooks/post-receive
+
+
+Configure Local Dev Environment
+	
+	mkdir ~/Projects
+	mkdir ~/Projects/SiteName.com && cd ~/Projects/SiteName.com 
+	git init
+	git remote add prodServer ssh://YourUserName@IPAddress/var/repos/SiteName.git
+
+Once you're done you keep committing your changes and once you are ready to push the commits to the live server.
+
+
 ### Credits
 Mike Taatgen
