@@ -12,6 +12,44 @@ footer{
   text-align:center;
   margin-bottom:5px;
 }
+
+
+/*
+####################################################################################################
+
+                                      NAVIGATION
+
+####################################################################################################
+*/
+
+ h1 {
+   font-size:32px;
+   width:40%;
+   float:left;
+   margin-bottom:20px;
+   text-decoration:none;
+ }
+
+h1 a:hover{
+  text-decoration:none;
+}
+
+ nav {
+   width:97%;
+ }
+
+#navcontainer {
+  float:right;
+  margin-top: 12px;
+}
+.container a {
+  color:#2ab5e0;
+  padding-left:0;
+}
+
+#contact a:hover {
+  color:#2ab5e0;
+}
 #wrapper {
 
 height:100%;
@@ -24,11 +62,7 @@ background-color:#F8F8F8;
   text-decoration:none;
 }
 
-#contact a {
-  color:#666;
-}
-
-h1{
+h2{
   color:#11C77A;
   font-family: 'Droid Sans', sans-serif;
 }
@@ -36,8 +70,8 @@ h1{
   margin-bottom:15px;
 }
  .hover-grid .hover-grid-item {
-  width: 181px;
-  height: 181px;
+  width: 165px;
+  height: 165px;
   margin: 0 18px 18px 0;
   float: left;
   /*-webkit-border-radius: 4px;
@@ -73,7 +107,7 @@ h1{
   border-radius: 4px;*/
 }
 
-.caption h2 {
+.caption h3 {
   font-size:16px;
 }
 .hover-grid-item .caption p {
